@@ -41,6 +41,9 @@
   :group 'flycheck
   :link '(url-link :tag "Repository" "https://github.com/jcs-elpa/flycheck-deno"))
 
+(flycheck-def-args-var flycheck-deno-lint-args (deno-lint)
+  :package-version '(flycheck-deno . "0.1.0"))
+
 (defun flycheck-deno-parse-lint (output checker buffer)
   "Parse deno-lint errors from JSON OUTPUT.
 
@@ -72,7 +75,9 @@ the BUFFER that was checked respectively."
   "Checker for deno source files.
 
 See `https://deno.land/manual@v1.29.1/tools/linter'."
-  :command ("deno" "lint" "--json" source)
+  :command ("deno" "lint" "--json"
+            (eval flycheck-deno-lint-args)
+            source)
   :error-parser flycheck-deno-parse-lint
   :modes ( js-mode js2-mode js3-mode js-ts-mode
            typescript-mode typescript-ts-mode))
