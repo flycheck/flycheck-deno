@@ -15,9 +15,6 @@ To enable this package, simply add loading to your config like the code below.
   (flycheck-deno-setup))
 ```
 
-Notice this will only eliminate the completion candidates! You will need to config
-sorting function in order to get the sorting order respect to `flx` scoring algorithm.
-
 ## Contribute
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
