@@ -2,7 +2,7 @@
          "0.1.0"
          "Flycheck for deno-lint")
 
-(website-url "https://github.com/jcs-elpa/flycheck-deno")
+(website-url "https://github.com/flycheck/flycheck-deno")
 (keywords "lisp" "deno")
 
 (package-file "flycheck-deno.el")
