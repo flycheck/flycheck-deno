@@ -6,7 +6,7 @@
 # flycheck-deno
 > Flycheck for deno-lint
 
-[![CI](https://github.com/jcs-elpa/flycheck-deno/actions/workflows/test.yml/badge.svg)](https://github.com/jcs-elpa/flycheck-deno/actions/workflows/test.yml)
+[![CI](https://github.com/flycheck/flycheck-deno/actions/workflows/test.yml/badge.svg)](https://github.com/flycheck/flycheck-deno/actions/workflows/test.yml)
 
 ## 🔨 Usage
 
