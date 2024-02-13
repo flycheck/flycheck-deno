@@ -2,7 +2,7 @@
 [![JCS-ELPA](https://raw.githubusercontent.com/jcs-emacs/badges/master/elpa/v/flycheck-deno.svg)](https://jcs-emacs.github.io/jcs-elpa/#/flycheck-deno)
 [![MELPA](https://melpa.org/packages/flycheck-deno-badge.svg)](https://melpa.org/#/flycheck-deno)
 [![MELPA Stable](https://stable.melpa.org/packages/flycheck-deno-badge.svg)](https://stable.melpa.org/#/flycheck-deno)
-<a href="#"><img align="right" src="https://raw.githubusercontent.com/emacs-eask/cli/master/docs/static/logo.png" width="20%"></a>
+<a href="#"><img align="right" src="etc/logo.png" width="20%"></a>
 
 # flycheck-deno
 > Flycheck for deno-lint
