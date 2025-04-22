@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "flycheck-deno"
          "0.1.0"
          "Flycheck for deno-lint")
